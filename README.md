@@ -2390,6 +2390,15 @@ Other Style Guides
 
     // good
     if (
+      foo === 911
+      && bar === 'abc'
+    ) {
+      console.log('911 abc');
+      thing1();
+    }
+
+    // good
+    if (
       (foo === 123 || bar === 'abc')
       && doesItLookGoodWhenItBecomesThatLong()
       && isThisReallyHappening()
